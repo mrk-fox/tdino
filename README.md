@@ -36,6 +36,14 @@ If you want to understand what and how it was done, just look inside. There are 
 
 *This project took 3.3h total*
 
+## Triccy!
+
+Thats the name of the dino. He's a nice one. 
+```
+╷^╷°`
+```
+
+
 ## Thanks...
 
 ...for looking by.
