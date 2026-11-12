@@ -195,8 +195,8 @@ with term.fullscreen(), term.hidden_cursor(), term.cbreak():
         else:
             toprint = term.clear()
             toprint += term.move_xy(0, 0) + str(floor_params)
-            toprint += term.move_xy(0, 9) + "Current height: " + str(triccy_jump_position)
-            toprint += term.move_xy(22, 9) + "since_last_cactus:  " + str(since_last_cactus)
+            toprint += term.move_xy(0, 4) + "Current height: " + str(triccy_jump_position)
+            toprint += term.move_xy(22, 4) + "since_last_cactus:  " + str(since_last_cactus)
             
             toprint += generate_floor()
             toprint += move_triccy(3, console_height-2-triccy_jump_position)
